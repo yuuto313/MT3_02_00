@@ -481,7 +481,6 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		Vector3 end = Transform(Transform(Add(segment.origin, segment.diff), worldViewProjectionMatrix),viewPortMatrix);
 
 
-
 		///
 		/// ↑更新処理ここまで
 		///
